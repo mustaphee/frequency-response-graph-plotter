@@ -50,7 +50,8 @@ try:
     print(y_axis)                  
 
     plt.plot(x_axis, y_axis)
-    plt.ylabel('Magnitude/Phase of resonant freuency: y-axis')
+    plt.title('Frequency response graph')
+    plt.ylabel('Magnitude/Phase of resonant frequency: y-axis')
     plt.xlabel('Normalised driving signal frequency: x-axis')
     plt.show()
 
